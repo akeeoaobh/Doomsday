@@ -1,0 +1,1422 @@
+﻿Log file open, 12/20/18 00:32:06
+LogInit: Display: Running engine for game: Armageddon
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.052795
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogStreaming: Display: Took  0.395s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.3-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Nov 11 2018 11:31:54
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: /home/aklet/UnrealEngine-4.20.3-release/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.19-16.32.07:391][  0]LogInit: Initializing SDL.
+[2018.12.19-16.32.07:542][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.12.19-16.32.07:542][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.12.19-16.32.07:542][  0]LogInit: Using SDL video driver 'x11'
+[2018.12.19-16.32.07:542][  0]LogInit: Display metrics:
+[2018.12.19-16.32.07:542][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.12.19-16.32.07:542][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.12.19-16.32.07:542][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.12.19-16.32.07:542][  0]LogInit:     Left=0, Top=0, Right=1920, Bottom=1044
+[2018.12.19-16.32.07:542][  0]LogInit:   VirtualDisplayRect:
+[2018.12.19-16.32.07:542][  0]LogInit:     Left=0, Top=0, Right=1920, Bottom=1044
+[2018.12.19-16.32.07:542][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.12.19-16.32.07:542][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.12.19-16.32.07:542][  0]LogInit:   Number of monitors: 1
+[2018.12.19-16.32.07:542][  0]LogInit:     Monitor 0
+[2018.12.19-16.32.07:542][  0]LogInit:       Name: PHL 273V7 27"
+[2018.12.19-16.32.07:542][  0]LogInit:       ID: display0
+[2018.12.19-16.32.07:542][  0]LogInit:       NativeWidth: 1920
+[2018.12.19-16.32.07:542][  0]LogInit:       NativeHeight: 1080
+[2018.12.19-16.32.07:542][  0]LogInit:       bIsPrimary: true
+[2018.12.19-16.32.07:542][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.12.19-16.32.07:542][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.12.19-16.32.07:548][  0]LogHAL: Display: Platform has ~ 4 GB [16669429760 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.19-16.32.07:548][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.19-16.32.07:548][  0]LogInit: Using custom *.sym to symbolicate
+[2018.12.19-16.32.07:548][  0]LogInit: Unix hardware info:
+[2018.12.19-16.32.07:548][  0]LogInit:  - we are not the first instance of this executable
+[2018.12.19-16.32.07:548][  0]LogInit:  - this process' id (pid) is 25540, parent process' id (ppid) is 1
+[2018.12.19-16.32.07:548][  0]LogInit:  - we are not running under debugger
+[2018.12.19-16.32.07:548][  0]LogInit:  - machine network name is 'archii'
+[2018.12.19-16.32.07:548][  0]LogInit:  - user name is 'aklet' (aklet)
+[2018.12.19-16.32.07:548][  0]LogInit:  - we're logged in locally
+[2018.12.19-16.32.07:548][  0]LogInit:  - we're running with rendering
+[2018.12.19-16.32.07:548][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz' (signature: 0x906EA)
+[2018.12.19-16.32.07:548][  0]LogInit:  - Number of physical cores available for the process: 6
+[2018.12.19-16.32.07:548][  0]LogInit:  - Number of logical cores available for the process: 12
+[2018.12.19-16.32.07:548][  0]LogInit:  - Cache line size: 64
+[2018.12.19-16.32.07:548][  0]LogInit:  - Memory allocator used: binned2
+[2018.12.19-16.32.07:548][  0]LogCore: Benchmarking clocks:
+[2018.12.19-16.32.07:548][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 62584276 (62584K, 63M) calls per second without zero deltas.
+[2018.12.19-16.32.07:548][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 64800800 (64801K, 65M) calls per second without zero deltas.
+[2018.12.19-16.32.07:548][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 4107686 (4108K, 4M) calls per second without zero deltas.
+[2018.12.19-16.32.07:548][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 226780510 (226781K, 227M) calls per second with 99.999863% zero deltas.
+[2018.12.19-16.32.07:548][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.12.19-16.32.07:548][  0]LogInit: Unix-specific commandline switches:
+[2018.12.19-16.32.07:548][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.12.19-16.32.07:548][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.12.19-16.32.07:548][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.12.19-16.32.07:548][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.12.19-16.32.07:548][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.12.19-16.32.07:548][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.12.19-16.32.07:548][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.12.19-16.32.07:548][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.12.19-16.32.07:548][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15897 MB, 16278740 KB, 16669429760 bytes)
+[2018.12.19-16.32.07:657][  0]LogInit: Using OS detected language (en-US).
+[2018.12.19-16.32.07:657][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.19-16.32.07:658][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.19-16.32.07:962][  0]LogStreaming: Display: Took  0.304s to InitEngineTextLocalization.
+[2018.12.19-16.32.08:002][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.19-16.32.08:002][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.19-16.32.08:698][  0]LogRHI: Initializing OpenGL RHI
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_RENDERER: GeForce GTX 1070/PCIe/SSE2
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 415.23
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2018.12.19-16.32.08:698][  0]LogRHI: OpenGL Extensions:
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_base_instance
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_bindless_texture
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_clear_texture
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_clip_control
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_color_buffer_float
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_compute_shader
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_copy_image
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_cull_distance
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_debug_output
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_depth_texture
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_derivative_control
+[2018.12.19-16.32.08:698][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_fragment_program
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_fragment_shader_interlock
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_geometry_shader4
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_gl_spirv
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_imaging
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_multi_bind
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_multisample
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_multitexture
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_occlusion_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_point_parameters
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_point_sprite
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_robustness
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sample_locations
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sample_shading
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_clock
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_objects
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_precision
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shading_language_100
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shading_language_include
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_shadow
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sparse_buffer
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sparse_texture
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sparse_texture2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sparse_texture_clamp
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_spirv_extensions
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_sync
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_compression
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_cube_map
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_env_add
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_env_combine
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_filter_minmax
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_float
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_gather
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_rg
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_storage
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_texture_view
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_timer_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_transpose_matrix
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_program
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_viewport_array
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ARB_window_pos
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ATI_draw_buffers
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ATI_texture_float
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_S3_s3tc
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_env_add
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_abgr
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_bgra
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_bindable_uniform
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_blend_color
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_blend_func_separate
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_blend_minmax
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_blend_subtract
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_Cg_shader
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_direct_state_access
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_draw_range_elements
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_fog_coord
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_framebuffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_geometry_shader4
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_gpu_shader4
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_packed_float
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_packed_pixels
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_point_parameters
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_post_depth_coverage
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_raster_multisample
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_rescale_normal
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_secondary_color
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_separate_specular_color
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_shader_image_load_formatted
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_shadow_funcs
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_sparse_texture2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_stencil_two_side
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_stencil_wrap
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture3D
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_array
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_cube_map
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_env_combine
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_filter_minmax
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_integer
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_lod
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_sRGB_R8
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_storage
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_timer_query
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_transform_feedback2
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_vertex_array
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_window_rectangles
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_x11_sync_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_import_sync_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KHR_debug
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_memory_object
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_memory_object_fd
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KHR_parallel_shader_compile
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KHR_no_error
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KHR_robustness
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_semaphore
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_EXT_semaphore_fd
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_KTX_buffer_region
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2018.12.19-16.32.08:699][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_bindless_texture
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_blend_equation_advanced_coherent
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NVX_blend_equation_advanced_multi_draw_buffers
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_blend_minmax_factor
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_blend_square
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_clip_space_w_scaling
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_command_list
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_compute_program5
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_conditional_render
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_conservative_raster
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_conservative_raster_dilate
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_conservative_raster_pre_snap_triangles
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_copy_image
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_depth_buffer_float
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_depth_clamp
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_draw_texture
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_explicit_multisample
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_feature_query
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fence
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fill_rectangle
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_float_buffer
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fog_distance
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fragment_coverage_to_color
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fragment_program
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fragment_program_option
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fragment_program2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_fragment_shader_interlock
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_framebuffer_mixed_samples
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_geometry_shader4
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_geometry_shader_passthrough
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_gpu_program4
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_gpu_program4_1
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_gpu_program5
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_gpu_shader5
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_half_float
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_light_max_exponent
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_memory_attachment
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_multisample_coverage
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_occlusion_query
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_path_rendering
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_path_rendering_shared_edge
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_pixel_data_range
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_point_sprite
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_primitive_restart
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_query_resource
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_query_resource_tag
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_register_combiners
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_register_combiners2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_sample_locations
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_sample_mask_override_coverage
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_atomic_float
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_atomic_float64
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_atomic_fp16_vector
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_atomic_int64
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_buffer_load
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_stereo_view_rendering
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texgen_reflection
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_barrier
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_env_combine4
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_multisample
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_rectangle
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_rectangle_compressed
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_shader
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_shader2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_texture_shader3
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_transform_feedback
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_transform_feedback2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vdpau_interop
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_array_range
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_array_range2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_program
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_program1_1
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_program2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_program2_option
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_vertex_program3
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_viewport_array2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_viewport_swizzle
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NVX_conditional_render
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NVX_nvenc_interop
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_thread_group
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_OVR_multiview
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_OVR_multiview2
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_SGIS_texture_lod
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_SGIX_depth_texture
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_SGIX_shadow
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_SUN_slice_accum
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 32768
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 32768
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 16384
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 32768
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2018.12.19-16.32.08:700][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2018.12.19-16.32.08:701][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 32
+[2018.12.19-16.32.08:701][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.12.19-16.32.08:701][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.12.19-16.32.08:701][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.12.19-16.32.08:701][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.12.19-16.32.08:704][  0]LogRHI: Texture pool is 5734 MB (70% of 8192 MB)
+[2018.12.19-16.32.08:704][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Intermediate/Shaders/WorkingDirectory/25540/).
+[2018.12.19-16.32.08:704][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Intermediate/Shaders/tmp/0004AAF408D666129359273AF25F4AE2/'.
+[2018.12.19-16.32.08:704][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.19-16.32.09:828][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.09:954][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.19-16.32.10:058][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.19-16.32.10:156][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.19-16.32.10:259][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.19-16.32.10:353][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.19-16.32.10:447][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.19-16.32.10:453][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.12.19-16.32.10:783][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.19-16.32.10:783][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.12.19-16.32.10:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.19-16.32.10:783][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.19-16.32.10:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.19-16.32.10:783][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.12.19-16.32.10:784][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.12.19-16.32.10:784][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.19-16.32.10:784][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.19-16.32.10:928][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.12.19-16.32.10:934][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.19-16.32.10:935][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.12.19-16.32.11:004][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2018.12.19-16.32.11:203][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.12.19-16.32.12:007][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.19-16.32.12:007][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.19-16.32.12:007][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.12.19-16.32.12:007][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.12.19-16.32.12:007][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.12.19-16.32.12:007][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.12.19-16.32.12:230][  0]LogNetVersion: Armageddon 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2856577417)
+[2018.12.19-16.32.15:689][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.227054 seconds
+[2018.12.19-16.32.15:715][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.12.19-16.32.15:715][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.12.19-16.32.15:715][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.19-16.32.15:873][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.12.19-16.32.16:485][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.12.19-16.32.16:485][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.12.19-16.32.16:485][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:485][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:485][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:485][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:486][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.12.19-16.32.16:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.12.19-16.32.16:486][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:486][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:486][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.12.19-16.32.16:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.12.19-16.32.16:486][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:486][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:487][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.12.19-16.32.16:487][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.12.19-16.32.16:487][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:487][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:487][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.12.19-16.32.16:487][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.12.19-16.32.16:489][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.12.19-16.32.16:489][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.12.19-16.32.16:489][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:489][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:490][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.12.19-16.32.16:490][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:490][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:490][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.12.19-16.32.16:490][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:490][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:490][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:491][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.12.19-16.32.16:491][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:491][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:491][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.12.19-16.32.16:491][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:491][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:491][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:492][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.12.19-16.32.16:492][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.12.19-16.32.16:492][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:492][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:492][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:492][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:492][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.12.19-16.32.16:492][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.12.19-16.32.16:492][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:492][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:492][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:492][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:493][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.12.19-16.32.16:493][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.12.19-16.32.16:493][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:493][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:493][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:493][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:493][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.12.19-16.32.16:493][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.12.19-16.32.16:493][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:493][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:493][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:493][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:494][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.12.19-16.32.16:494][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.12.19-16.32.16:494][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:494][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:494][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:494][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:494][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.12.19-16.32.16:494][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.12.19-16.32.16:494][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:494][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:494][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:494][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:495][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.12.19-16.32.16:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.12.19-16.32.16:495][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:495][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:495][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.12.19-16.32.16:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.12.19-16.32.16:495][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:496][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:496][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:496][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.12.19-16.32.16:496][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.12.19-16.32.16:496][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:496][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:496][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:496][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:496][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.12.19-16.32.16:496][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.12.19-16.32.16:497][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:497][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:497][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:497][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:497][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.12.19-16.32.16:497][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.12.19-16.32.16:497][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:497][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:497][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:497][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:497][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.12.19-16.32.16:497][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.12.19-16.32.16:498][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:498][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:498][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:498][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:498][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.12.19-16.32.16:498][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.12.19-16.32.16:498][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:498][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.16:498][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.12.19-16.32.16:498][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.12.19-16.32.20:829][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.19-16.32.20:831][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.19-16.32.21:085][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.19-16.32.22:540][  0]SourceControl: Source control is disabled
+[2018.12.19-16.32.22:540][  0]SourceControl: Source control is disabled
+[2018.12.19-16.32.22:634][  0]SourceControl: Source control is disabled
+[2018.12.19-16.32.22:719][  0]SourceControl: Source control is disabled
+[2018.12.19-16.32.25:561][  0]LogEngine: Initializing Engine...
+[2018.12.19-16.32.25:561][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.19-16.32.25:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.19-16.32.25:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.19-16.32.25:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.19-16.32.25:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.19-16.32.26:773][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.19-16.32.27:125][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.12.19-16.32.27:132][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.12.19-16.32.27:139][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.12.19-16.32.27:272][  0]LogInit: FAudioDevice initialized.
+[2018.12.19-16.32.27:273][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.19-16.32.27:321][  0]LogDerivedDataCache: Saved boot cache 0.05s 84MB ../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/DerivedDataCache/Boot.ddc.
+[2018.12.19-16.32.28:275][  0]LogInit: Texture streaming: Enabled
+[2018.12.19-16.32.28:323][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.19-16.32.28:624][  0]LogInit: Transaction tracking system initialized
+[2018.12.19-16.32.29:189][  0]BlueprintLog: New page: Editor Load
+[2018.12.19-16.32.30:853][  0]LocalizationService: Localization service is disabled
+[2018.12.19-16.32.31:956][  0]LogFileCache: Scanning file cache for directory '/home/aklet/Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/' took 0.00s
+[2018.12.19-16.32.31:956][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.19-16.32.31:956][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.19-16.32.31:956][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.19-16.32.31:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.19-16.32.31:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.19-16.32.31:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.19-16.32.31:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.19-16.32.34:035][  0]SourceControl: Source control is disabled
+[2018.12.19-16.32.34:055][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 /home/aklet/UnrealEngine-4.20.3-release/FeaturePacks/StarterContent.upack)
+[2018.12.19-16.32.34:188][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.12.19-16.32.34:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.12.19-16.32.34:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.12.19-16.32.34:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.12.19-16.32.34:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.12.19-16.32.34:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.12.19-16.32.34:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.12.19-16.32.34:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.12.19-16.32.34:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.12.19-16.32.34:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.12.19-16.32.34:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.12.19-16.32.34:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.12.19-16.32.34:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.12.19-16.32.34:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.12.19-16.32.34:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.12.19-16.32.34:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.12.19-16.32.34:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.12.19-16.32.34:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.12.19-16.32.34:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.12.19-16.32.35:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.12.19-16.32.35:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.12.19-16.32.35:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.12.19-16.32.36:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.12.19-16.32.36:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.12.19-16.32.37:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.12.19-16.32.38:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.12.19-16.32.38:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.12.19-16.32.39:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.12.19-16.32.39:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.12.19-16.32.40:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.12.19-16.32.40:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.12.19-16.32.41:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.12.19-16.32.41:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.12.19-16.32.42:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.12.19-16.32.43:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.12.19-16.32.43:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.12.19-16.32.43:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.12.19-16.32.43:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.12.19-16.32.43:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.12.19-16.32.43:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.12.19-16.32.44:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.12.19-16.32.44:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.12.19-16.32.44:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.12.19-16.32.45:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.12.19-16.32.45:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.12.19-16.32.46:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.12.19-16.32.47:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.12.19-16.32.47:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.12.19-16.32.47:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.12.19-16.32.48:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.12.19-16.32.48:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.12.19-16.32.48:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.12.19-16.32.49:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.12.19-16.32.50:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.12.19-16.32.50:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.12.19-16.32.51:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.12.19-16.32.51:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.12.19-16.32.51:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.12.19-16.32.51:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.12.19-16.32.52:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.12.19-16.32.52:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.12.19-16.32.53:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.12.19-16.32.53:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.12.19-16.32.54:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.12.19-16.32.55:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.12.19-16.32.55:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.12.19-16.32.55:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.12.19-16.32.56:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.12.19-16.32.56:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.12.19-16.32.57:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.12.19-16.32.57:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.12.19-16.32.57:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.12.19-16.32.57:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.12.19-16.32.57:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.12.19-16.32.57:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.12.19-16.32.58:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.12.19-16.32.58:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.12.19-16.32.59:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.12.19-16.32.59:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.12.19-16.32.59:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.12.19-16.32.59:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.12.19-16.33.00:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.12.19-16.33.00:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.12.19-16.33.01:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.12.19-16.33.01:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.12.19-16.33.01:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.12.19-16.33.02:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.12.19-16.33.02:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.12.19-16.33.03:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.12.19-16.33.04:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.12.19-16.33.05:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.12.19-16.33.05:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.12.19-16.33.05:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.12.19-16.33.05:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.12.19-16.33.06:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.12.19-16.33.06:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.12.19-16.33.06:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.12.19-16.33.06:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.12.19-16.33.07:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.12.19-16.33.07:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.12.19-16.33.07:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.12.19-16.33.07:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.12.19-16.33.08:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.12.19-16.33.08:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.12.19-16.33.09:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.12.19-16.33.09:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.12.19-16.33.09:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.12.19-16.33.09:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.12.19-16.33.10:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.12.19-16.33.10:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.12.19-16.33.11:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.12.19-16.33.11:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.12.19-16.33.12:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.12.19-16.33.13:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.12.19-16.33.13:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.12.19-16.33.13:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.12.19-16.33.14:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.12.19-16.33.14:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.12.19-16.33.14:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.12.19-16.33.15:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.12.19-16.33.15:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Light02.uasset"
+[2018.12.19-16.33.15:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.12.19-16.33.15:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.12.19-16.33.15:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.12.19-16.33.15:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.12.19-16.33.15:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.12.19-16.33.15:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.12.19-16.33.15:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.12.19-16.33.15:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.12.19-16.33.15:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.12.19-16.33.15:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.12.19-16.33.15:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Steam01.uasset"
+[2018.12.19-16.33.15:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.12.19-16.33.15:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.12.19-16.33.15:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.12.19-16.33.16:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.12.19-16.33.16:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Light01.uasset"
+[2018.12.19-16.33.16:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.12.19-16.33.16:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.12.19-16.33.16:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Fire01.uasset"
+[2018.12.19-16.33.17:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.12.19-16.33.17:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.12.19-16.33.17:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.12.19-16.33.17:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.12.19-16.33.20:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.12.19-16.33.20:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.12.19-16.33.20:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.12.19-16.33.20:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.12.19-16.33.20:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.12.19-16.33.20:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.12.19-16.33.20:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.12.19-16.33.21:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.12.19-16.33.21:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.12.19-16.33.21:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.12.19-16.33.21:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.12.19-16.33.21:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.12.19-16.33.21:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.12.19-16.33.21:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.12.19-16.33.21:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.12.19-16.33.21:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.12.19-16.33.21:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.12.19-16.33.21:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.12.19-16.33.21:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.12.19-16.33.21:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.12.19-16.33.21:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.12.19-16.33.21:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.12.19-16.33.21:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.12.19-16.33.21:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.12.19-16.33.21:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.12.19-16.33.21:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.12.19-16.33.21:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.12.19-16.33.21:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.12.19-16.33.21:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.12.19-16.33.21:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.12.19-16.33.21:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.12.19-16.33.21:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.12.19-16.33.21:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.12.19-16.33.21:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.12.19-16.33.21:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.12.19-16.33.21:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.12.19-16.33.21:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.12.19-16.33.21:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.12.19-16.33.21:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.12.19-16.33.21:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.12.19-16.33.21:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.12.19-16.33.21:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.12.19-16.33.21:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.12.19-16.33.21:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.12.19-16.33.22:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.12.19-16.33.22:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.12.19-16.33.22:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.12.19-16.33.23:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.12.19-16.33.23:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Maps/StarterMap.umap"
+[2018.12.19-16.33.23:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.12.19-16.33.23:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.12.19-16.33.24:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.12.19-16.33.24:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.12.19-16.33.24:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.12.19-16.33.24:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.12.19-16.33.24:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.12.19-16.33.24:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.12.19-16.33.24:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.12.19-16.33.24:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.12.19-16.33.24:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.12.19-16.33.24:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.12.19-16.33.24:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.12.19-16.33.24:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.12.19-16.33.24:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.12.19-16.33.24:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.12.19-16.33.24:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Door.uasset"
+[2018.12.19-16.33.24:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.12.19-16.33.24:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.12.19-16.33.24:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.12.19-16.33.24:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.12.19-16.33.24:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.12.19-16.33.24:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.12.19-16.33.24:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.12.19-16.33.24:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.12.19-16.33.25:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.12.19-16.33.25:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.12.19-16.33.25:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.12.19-16.33.25:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.12.19-16.33.25:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.12.19-16.33.25:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.12.19-16.33.25:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.12.19-16.33.25:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.12.19-16.33.25:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.12.19-16.33.25:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.12.19-16.33.25:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.12.19-16.33.25:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.12.19-16.33.25:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.12.19-16.33.25:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.12.19-16.33.25:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.12.19-16.33.25:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.12.19-16.33.25:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.12.19-16.33.25:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.12.19-16.33.25:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.12.19-16.33.25:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.12.19-16.33.25:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.12.19-16.33.25:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.12.19-16.33.25:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.12.19-16.33.25:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.12.19-16.33.25:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.12.19-16.33.26:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.12.19-16.33.26:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.12.19-16.33.26:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.12.19-16.33.26:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.12.19-16.33.26:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.12.19-16.33.26:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.12.19-16.33.26:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.12.19-16.33.26:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.12.19-16.33.26:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.12.19-16.33.26:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.12.19-16.33.26:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.12.19-16.33.26:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.12.19-16.33.26:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.12.19-16.33.26:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.12.19-16.33.26:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.12.19-16.33.26:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.12.19-16.33.26:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.12.19-16.33.26:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.12.19-16.33.26:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.12.19-16.33.26:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.12.19-16.33.26:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.12.19-16.33.26:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.12.19-16.33.26:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.12.19-16.33.26:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.12.19-16.33.26:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.12.19-16.33.26:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.12.19-16.33.26:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.12.19-16.33.26:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.12.19-16.33.27:764][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.12.19-16.33.28:290][  0]LogSavePackage: Moving '../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Saved/Blueprint_CeilingLight07697C5D08D66612C2C5E5B2F71D5DF6.tmp' to '../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2018.12.19-16.33.28:290][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.12.19-16.33.28:291][  0]Cmd: MAP LOAD FILE="../../../../Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.19-16.33.28:291][  0]LightingResults: New page: Lighting Build
+[2018.12.19-16.33.28:355][  0]MapCheck: New page: Map Check
+[2018.12.19-16.33.28:355][  0]LightingResults: New page: Lighting Build
+[2018.12.19-16.33.28:674][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.12.19-16.33.28:679][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.19-16.33.28:692][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.19-16.33.28:709][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.934ms to complete.
+[2018.12.19-16.33.28:709][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.418
+[2018.12.19-16.33.28:731][  0]LogLinux: Scale at X=320.000000, Y=162.000000: 1.000000 (monitor=#0, HDPI=81.551842 (horz scale: 0.849498), VDPI=81.642860 (vert scale: 0.850446))
+[2018.12.19-16.33.28:731][  0]LogLinux: Scale at X=965.000000, Y=527.000000: 1.000000 (monitor=#0, HDPI=81.551842 (horz scale: 0.849498), VDPI=81.642860 (vert scale: 0.850446))
+[2018.12.19-16.33.28:739][  0]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=81.551842 (horz scale: 0.849498), VDPI=81.642860 (vert scale: 0.850446))
+[2018.12.19-16.33.28:759][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-16.33.28:763][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-16.33.28:768][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-16.33.28:772][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.19-16.33.28:778][  0]LogCollectionManager: Loaded 0 collections in 0.001553 seconds
+[2018.12.19-16.33.28:785][  0]LogFileCache: Scanning file cache for directory '/home/aklet/Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Saved/Collections/' took 0.00s
+[2018.12.19-16.33.28:785][  0]LogFileCache: Scanning file cache for directory '/home/aklet/Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/Developers/aklet/Collections/' took 0.00s
+[2018.12.19-16.33.28:785][  0]LogFileCache: Scanning file cache for directory '/home/aklet/Documents/Unreal Projects/virtuswinterjam2018/Armageddon/Content/Collections/' took 0.00s
+[2018.12.19-16.33.28:785][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2545 classes and 566 folders.
+[2018.12.19-16.33.28:787][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.12.19-16.33.28:948][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.19-16.33.28:961][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2018.12.19-16.33.29:037][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.12.19-16.33.29:262][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.19-16.33.29:262][  0]LogLoad: (Engine Initialization) Total time: 83.66 seconds
+[2018.12.19-16.33.29:262][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.19-16.33.29:273][  0]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.19-16.33.29:275][  0]LogSlate: Took 0.000064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.19-16.33.29:281][  0]LogSlate: Took 0.000063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.19-16.33.29:343][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.12.19-16.33.29:343][  0]LogSlate: Took 0.000049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.19-16.33.29:417][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.12.19-16.33.29:421][  0]LogInit: Adding external input plugin.
+[2018.12.19-16.33.29:437][  0]LogAssetRegistry: Asset discovery search completed in 78.4340 seconds
+[2018.12.19-16.33.29:438][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.19-16.33.29:438][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2018.12.19-16.33.29:441][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.19-16.33.31:561][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.19-16.33.31:707][263]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=81.551842 (horz scale: 0.849498), VDPI=81.642860 (vert scale: 0.850446))
+[2018.12.19-16.33.31:719][263]LogSlate: Window 'Armageddon - Unreal Editor' being destroyed
+[2018.12.19-16.33.31:847][264]Cmd: QUIT_EDITOR
+[2018.12.19-16.33.31:900][264]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.19-16.33.31:900][264]LogExit: Preparing to exit.
+[2018.12.19-16.33.32:974][264]LogExit: Editor shut down
+[2018.12.19-16.33.32:974][264]LogExit: Transaction tracking system shut down
+[2018.12.19-16.33.33:141][264]LogExit: Object subsystem successfully closed.
+[2018.12.19-16.33.33:152][264]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.19-16.33.33:190][264]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.12.19-16.33.33:190][264]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.12.19-16.33.33:190][264]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module SequenceRecorder (496)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module MaterialEditor (488)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (480)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (474)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (472)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (470)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (468)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (466)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (464)
+[2018.12.19-16.33.33:191][264]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (462)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (453)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2018.12.19-16.33.33:192][264]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module LinuxPlatformEditor (438)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module XmlParser (420)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module Blutility (418)
+[2018.12.19-16.33.33:251][264]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
+[2018.12.19-16.33.33:252][264]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
+[2018.12.19-16.33.33:283][264]LogModuleManager: Shutting down and abandoning module AutomationController (398)
+[2018.12.19-16.33.33:283][264]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
+[2018.12.19-16.33.33:283][264]LogModuleManager: Shutting down and abandoning module Layers (394)
+[2018.12.19-16.33.33:284][264]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
+[2018.12.19-16.33.33:284][264]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
+[2018.12.19-16.33.33:284][264]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
+[2018.12.19-16.33.33:284][264]LogModuleManager: Shutting down and abandoning module Persona (386)
+[2018.12.19-16.33.33:284][264]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
+[2018.12.19-16.33.33:284][264]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
+[2018.12.19-16.33.33:285][264]LogModuleManager: Shutting down and abandoning module Kismet (380)
+[2018.12.19-16.33.33:285][264]LogModuleManager: Shutting down and abandoning module GraphEditor (378)
+[2018.12.19-16.33.33:285][264]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module DesktopPlatform (373)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (356)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module LauncherPlatform (354)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module AnalyticsET (352)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module PortalServices (350)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module PortalRpc (348)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module MessagingRpc (346)
+[2018.12.19-16.33.33:286][264]LogModuleManager: Shutting down and abandoning module AIModule (344)
+[2018.12.19-16.33.33:287][264]LogModuleManager: Shutting down and abandoning module GameplayDebugger (343)
+[2018.12.19-16.33.33:287][264]LogModuleManager: Shutting down and abandoning module AITestSuite (341)
+[2018.12.19-16.33.33:287][264]LogModuleManager: Shutting down and abandoning module NavigationSystem (339)
+[2018.12.19-16.33.33:287][264]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (332)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (331)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module AppleVisionBlueprintSupport (328)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module AppleVision (326)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module AlembicImporter (324)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module AlembicLibrary (323)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module GeometryCache (322)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (321)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (316)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module AppleImageUtils (314)
+[2018.12.19-16.33.33:331][264]LogModuleManager: Shutting down and abandoning module BackChannel (312)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (300)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module CryptoKeys (298)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (296)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module PolygonModeling (294)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module MeshEditor (292)
+[2018.12.19-16.33.33:332][264]LogModuleManager: Shutting down and abandoning module PluginBrowser (290)
+[2018.12.19-16.33.33:333][264]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (288)
+[2018.12.19-16.33.33:333][264]LogModuleManager: Shutting down and abandoning module DatasmithContent (286)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (284)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (282)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module GitSourceControl (280)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (278)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (276)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (270)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (264)
+[2018.12.19-16.33.33:334][264]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (262)
+[2018.12.19-16.33.33:335][264]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (260)
+[2018.12.19-16.33.33:335][264]LogModuleManager: Shutting down and abandoning module MediaCompositing (258)
+[2018.12.19-16.33.33:335][264]LogModuleManager: Shutting down and abandoning module LinearTimecode (256)
+[2018.12.19-16.33.33:335][264]LogModuleManager: Shutting down and abandoning module ImgMedia (254)
+[2018.12.19-16.33.33:336][264]LogModuleManager: Shutting down and abandoning module Media (253)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (250)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module CableComponent (248)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (246)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (242)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module AndroidPermission (238)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (236)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module EditableMesh (234)
+[2018.12.19-16.33.33:342][264]LogModuleManager: Shutting down and abandoning module TcpMessaging (232)
+[2018.12.19-16.33.33:443][264]LogModuleManager: Shutting down and abandoning module UdpMessaging (230)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module AISupportModule (228)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module ActorSequence (226)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module Paper2D (224)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (222)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module DataValidation (220)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (218)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module FacialAnimation (216)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (214)
+[2018.12.19-16.33.33:543][264]LogModuleManager: Shutting down and abandoning module LevelEditor (213)
+[2018.12.19-16.33.33:544][264]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (212)
+[2018.12.19-16.33.33:544][264]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (210)
+[2018.12.19-16.33.33:544][264]LogModuleManager: Shutting down and abandoning module MainFrame (208)
+[2018.12.19-16.33.33:544][264]LogModuleManager: Shutting down and abandoning module HotReload (207)
+[2018.12.19-16.33.33:544][264]LogModuleManager: Shutting down and abandoning module ContentBrowser (203)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module TreeMap (201)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (198)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (196)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (194)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (192)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (190)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module PhysXVehicles (188)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (186)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (184)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module PacketHandler (182)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (180)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (178)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module MediaAssets (176)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module Overlay (174)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module OverlayEditor (173)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module VREditor (170)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module StringTableEditor (168)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (166)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (164)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module FunctionalTesting (162)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (160)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (159)
+[2018.12.19-16.33.33:545][264]LogModuleManager: Shutting down and abandoning module UMG (156)
+[2018.12.19-16.33.33:546][264]LogModuleManager: Shutting down and abandoning module UMGEditor (155)
+[2018.12.19-16.33.33:546][264]LogModuleManager: Shutting down and abandoning module Sequencer (154)
+[2018.12.19-16.33.33:546][264]LogModuleManager: Shutting down and abandoning module MessageLog (151)
+[2018.12.19-16.33.33:546][264]LogModuleManager: Shutting down and abandoning module SlateReflector (146)
+[2018.12.19-16.33.33:546][264]LogModuleManager: Shutting down and abandoning module Slate (144)
+[2018.12.19-16.33.33:546][264]LogModuleManager: Shutting down and abandoning module EditorStyle (142)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module MRMesh (140)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module Messaging (138)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (136)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (134)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (132)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module Networking (130)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module Core (128)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module LevelSequence (126)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module KismetCompiler (124)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module MeshUtilities (122)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (121)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (120)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.12.19-16.33.33:547][264]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (111)
+[2018.12.19-16.33.33:562][264]LogModuleManager: Shutting down and abandoning module DerivedDataCache (108)
+[2018.12.19-16.33.33:800][264]LogDerivedDataCache: Shutdown
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (99)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (97)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (95)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (93)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (91)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module ImageWrapper (90)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (87)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (85)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (83)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (81)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (79)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (77)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (75)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (73)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (71)
+[2018.12.19-16.33.33:800][264]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (69)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (58)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (56)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module XMPP (51)
+[2018.12.19-16.33.33:808][264]LogModuleManager: Shutting down and abandoning module HTTP (49)
+[2018.12.19-16.33.33:809][264]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.19-16.33.33:809][264]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05C0838F-08D6-6612-9F0A-56BCF38A9C71%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.20.3-0%2B%2B%2BUE4%2BRelease-4.20&UserID=000257da040b0a0b0036000ab281343f%7C%7C58a4aa03cde44c37b366608f43dcd180&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.12.19-16.33.33:844][264]LogModuleManager: Shutting down and abandoning module SSL (48)
+[2018.12.19-16.33.33:846][264]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (44)
+[2018.12.19-16.33.33:846][264]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (40)
+[2018.12.19-16.33.33:846][264]LogModuleManager: Shutting down and abandoning module SteamVR (38)
+[2018.12.19-16.33.33:846][264]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (36)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.12.19-16.33.33:847][264]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.19-16.33.33:848][264]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.19-16.33.33:851][264]LogExit: Exiting.
+[2018.12.19-16.33.33:851][264]LogInit: Tearing down SDL.
+[2018.12.19-16.33.33:879][264]Log file closed, 12/20/18 00:33:33
